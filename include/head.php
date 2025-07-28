@@ -30,4 +30,4 @@
 
         <link fetchpriority="high" rel="preload" href="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg" as="image" />
 
-        <link href="css/slider.css" rel="stylesheet">
+        <!-- <link href="css/slider.css" rel="stylesheet"> -->

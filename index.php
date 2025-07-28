@@ -1,151 +1,12 @@
-<?php include 'include/head.php' ?>
-<?php include 'include/loader.php' ?>
+    <?php include 'include/head.php' ?>
+    
 </head>
 <body>
-
-  <?php include 'include/menu.php' ?>
-
-
-
-        <!-- first slider -->
-        <!-- Buttons -->
-        <div class="container-fluid py-5 mb-5 hero-header">
-            <div class="container py-5">
-                <div class="row g-5 align-items-center">
-                    <div>
-                        <button id="prevButton" class="wave">
-                            <svg
-                            clip-rule="evenodd"
-                            fill-rule="evenodd"
-                            stroke-linejoin="round"
-                            stroke-miterlimit="2"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            >
-                            <path
-                                d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z"
-                                fill-rule="nonzero"
-                            />
-                            </svg>
-                        </button>
-
-                        <button id="nextButton" class="wave">
-                            <svg
-                            clip-rule="evenodd"
-                            fill-rule="evenodd"
-                            stroke-linejoin="round"
-                            stroke-miterlimit="2"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                            >
-                            <path
-                                d="m12.012 1.995c-5.518 0-9.998 4.48-9.998 9.998s4.48 9.998 9.998 9.998 9.997-4.48 9.997-9.998-4.479-9.998-9.997-9.998zm0 1.5c4.69 0 8.497 3.808 8.497 8.498s-3.807 8.498-8.497 8.498-8.498-3.808-8.498-8.498 3.808-8.498 8.498-8.498zm1.528 4.715s1.502 1.505 3.255 3.259c.146.147.219.339.219.531s-.073.383-.219.53c-1.753 1.754-3.254 3.258-3.254 3.258-.145.145-.336.217-.527.217-.191-.001-.383-.074-.53-.221-.293-.293-.295-.766-.004-1.057l1.978-1.977h-6.694c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h6.694l-1.979-1.979c-.289-.289-.286-.762.006-1.054.147-.147.339-.221.531-.222.19 0 .38.071.524.215z"
-                                fill-rule="nonzero"
-                            />
-                            </svg>
-                        </button>
-                    </div>
-                    <!-- Fixed Sections -->
-                    <div class="text">
-                    <h1 class="h1 color-me">Pineapple</h1>
-                    <div class="cane-image">
-                        <img src="https://www.yudiz.com/codepen/fruity/cane.svg" alt="" />
-                        <img src="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg" alt="" class="cane-labels" />
-                    </div>
-                    </div>
-                    <!-- Fixed Sections Ends-->
-                    <!-- Fruits Images Section -->
-                    <div class="section-container-main">
-                    <div class="section-container">
-                        <section class="section" id="section1">
-                        <div class="fruit-images">
-                            <div class="image-one fruit-image">
-                            <img
-                                src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
-                                alt="pear-image"
-                            />
-                            </div>
-                            <div class="image-two fruit-image">
-                            <img
-                                src="https://i.postimg.cc/0NTLXFgJ/juice-pineapple-upside-down-cake-pi-a-colada-tropical-fruit-png-favpng-Vp-Mxpajyhdza-LK6-XJGLBc-BTVq-rem.png"
-                                alt="pear-image"
-                            />
-                            </div>
-                            <div class="image-three fruit-image">
-                            <img
-                                src="https://i.postimg.cc/nzHvxKDc/juice-pi-a-colada-pineapple-tropical-fruit-png-favpng-ecr36-Fu811-De3-PPd1-Vanm-HRbg-t-removebg-preview.png"
-                                alt="pear-image"
-                            />
-                            </div>
-                            <div class="image-four fruit-image">
-                            <img
-                                src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
-                                alt="pear-image"
-                            />
-                            </div>
-                        </div>
-                        </section>
-                        <section class="section" id="section2">
-                        <div class="fruit-images">
-                            <div class="image-one fruit-image">
-                            <img src="https://i.postimg.cc/dQHKtr8c/apple-one.png" alt="apple-image" />
-                            </div>
-                            <div class="image-two fruit-image">
-                            <img src="https://i.postimg.cc/52PP8S2f/apple-two.png" alt="apple-image" />
-                            </div>
-                            <div class="image-three fruit-image">
-                            <img src="https://i.postimg.cc/Zqx5fnXY/apple-three.png" alt="apple-image" />
-                            </div>
-                            <div class="image-four fruit-image">
-                            <img src="https://i.postimg.cc/CLnDcC7F/apple-four.png" alt="apple-image" />
-                            </div>
-                        </div>
-                        </section>
-                        <section class="section" id="section3">
-                        <div class="fruit-images">
-                            <div class="image-one fruit-image">
-                            <img src="https://i.postimg.cc/Dy5mhBgQ/exotic-one.png" alt="exotic-image" />
-                            </div>
-                            <div class="image-two fruit-image">
-                            <img src="https://i.postimg.cc/RVmGyVs6/exotic-two.png" alt="exotic-image" />
-                            </div>
-                            <div class="image-three fruit-image">
-                            <img src="https://i.postimg.cc/yNDTcJd5/exotic-three.png" alt="exotic-image" />
-                            </div>
-                            <div class="image-four fruit-image">
-                            <img src="https://i.postimg.cc/yNDTcJd5/exotic-three.png" alt="exotic-image" />
-                            </div>
-                        </div>
-                        </section>
-                    </div>
-                    </div>
-                    <div class="profile" onclick="window.open('https://codepen.io/uzitrake', '_blank')">
-                    <svg
-                        clip-rule="evenodd"
-                        fill-rule="evenodd"
-                        stroke-linejoin="round"
-                        stroke-miterlimit="2"
-                        viewBox="0 0 24 24"
-                        class="pro-svg"
-                        xmlns="http://www.w3.org/2000/svg"
-                    >
-                        <path
-                        d="m11.998 2c5.517 0 9.997 4.48 9.997 9.998 0 5.517-4.48 9.997-9.997 9.997-5.518 0-9.998-4.48-9.998-9.997 0-5.518 4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.497 8.498 8.497 8.497-3.807 8.497-8.497-3.807-8.498-8.497-8.498zm2.502 8.495c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25zm-3.75 0c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25zm-3.75 0c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25-.56 1.25-1.25 1.25-1.25-.56-1.25-1.25z"
-                        />
-                    </svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- end slider -->
-
-
-
-
-
+    <?php include 'include/loader.php' ?>
+    <?php include 'include/menu.php' ?>
 
         <!-- Hero Start -->
-        <!-- <div class="container-fluid py-5 mb-5 hero-header">
+        <div class="container-fluid py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-md-12 col-lg-7">
@@ -180,7 +41,7 @@
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
         <!-- Hero End -->
 
 
@@ -1134,25 +995,7 @@
         </div>
         <!-- Tastimonial End -->
 
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
-        
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="js/slider.js"></script>
-
-    <?php include 'include/footer.php' ?>
+        <?php include 'include/footer.php' ?>
 
     </body>
 
