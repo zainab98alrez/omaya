@@ -1,10 +1,18 @@
-import gsap from "https://esm.sh/gsap";
-//............................................................... Script ...................................................................
-// Data for the sections
+  //import gsap from "https://esm.sh/gsap";
+    //............................................................... Script ...................................................................
+    // Data for the sections
     let h1Texts = ["Pineapple", "Apple Flavour", "Apple passion"]; // Add your h1 texts here
 
-    let logoColors = ["var(--pear-logo)", "var(--apple-logo)", "var(--exotic-logo)"]; // logo colors here
-    let keyframes = ["wave-pear-effect", "wave-apple-effect", "wave-exotic-effect"]; // keyframes here
+    let logoColors = [
+      "var(--pear-logo)",
+      "var(--apple-logo)",
+      "var(--exotic-logo)",
+    ]; // logo colors here
+    let keyframes = [
+      "wave-pear-effect",
+      "wave-apple-effect",
+      "wave-exotic-effect",
+    ]; // keyframes here
     // Normal GSAP animation.......
     gsap.from(".fruit-image ", { y: "-100vh", delay: 0.5 });
     gsap.to(".fruit-image img", {

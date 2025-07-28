@@ -1,12 +1,160 @@
     <?php include 'include/head.php' ?>
     
+     <link
+      fetchpriority="high"
+      rel="preload"
+      href="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg"
+      as="image"
+    />
+
+    <link rel="stylesheet" href="/css/slider.css">
 </head>
 <body>
     <?php include 'include/loader.php' ?>
     <?php include 'include/menu.php' ?>
 
+        <main class="home-slider">
+            <!-- Buttons -->
+            <div>
+            <button id="prevButton" class="wave">
+                <svg
+                clip-rule="evenodd"
+                fill-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                    d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z"
+                    fill-rule="nonzero"
+                />
+                </svg>
+            </button>
+
+            <button id="nextButton" class="wave">
+                <svg
+                clip-rule="evenodd"
+                fill-rule="evenodd"
+                stroke-linejoin="round"
+                stroke-miterlimit="2"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <path
+                    d="m12.012 1.995c-5.518 0-9.998 4.48-9.998 9.998s4.48 9.998 9.998 9.998 9.997-4.48 9.997-9.998-4.479-9.998-9.997-9.998zm0 1.5c4.69 0 8.497 3.808 8.497 8.498s-3.807 8.498-8.497 8.498-8.498-3.808-8.498-8.498 3.808-8.498 8.498-8.498zm1.528 4.715s1.502 1.505 3.255 3.259c.146.147.219.339.219.531s-.073.383-.219.53c-1.753 1.754-3.254 3.258-3.254 3.258-.145.145-.336.217-.527.217-.191-.001-.383-.074-.53-.221-.293-.293-.295-.766-.004-1.057l1.978-1.977h-6.694c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h6.694l-1.979-1.979c-.289-.289-.286-.762.006-1.054.147-.147.339-.221.531-.222.19 0 .38.071.524.215z"
+                    fill-rule="nonzero"
+                />
+                </svg>
+            </button>
+            </div>
+            <!-- Fixed Sections -->
+            <div class="text">
+            <h1 class="h1 color-me">Pineapple</h1>
+            <div class="cane-image">
+                <img src="https://www.yudiz.com/codepen/fruity/cane.svg" alt="" />
+                <img
+                src="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg"
+                alt=""
+                class="cane-labels"
+                />
+            </div>
+            </div>
+            <!-- Fixed Sections Ends-->
+            <!-- Fruits Images Section -->
+            <div class="section-container-main">
+            <div class="section-container">
+                <section class="section" id="section1">
+                <div class="fruit-images">
+                    <div class="image-one fruit-image">
+                    <img
+                        src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
+                        alt="pear-image"
+                    />
+                    </div>
+                    <div class="image-two fruit-image">
+                    <img
+                        src="https://i.postimg.cc/0NTLXFgJ/juice-pineapple-upside-down-cake-pi-a-colada-tropical-fruit-png-favpng-Vp-Mxpajyhdza-LK6-XJGLBc-BTVq-rem.png"
+                        alt="pear-image"
+                    />
+                    </div>
+                    <div class="image-three fruit-image">
+                    <img
+                        src="https://i.postimg.cc/nzHvxKDc/juice-pi-a-colada-pineapple-tropical-fruit-png-favpng-ecr36-Fu811-De3-PPd1-Vanm-HRbg-t-removebg-preview.png"
+                        alt="pear-image"
+                    />
+                    </div>
+                    <div class="image-four fruit-image">
+                    <img
+                        src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
+                        alt="pear-image"
+                    />
+                    </div>
+                </div>
+                </section>
+                <section class="section" id="section2">
+                <div class="fruit-images">
+                    <div class="image-one fruit-image">
+                    <img
+                        src="https://i.postimg.cc/dQHKtr8c/apple-one.png"
+                        alt="apple-image"
+                    />
+                    </div>
+                    <div class="image-two fruit-image">
+                    <img
+                        src="https://i.postimg.cc/52PP8S2f/apple-two.png"
+                        alt="apple-image"
+                    />
+                    </div>
+                    <div class="image-three fruit-image">
+                    <img
+                        src="https://i.postimg.cc/Zqx5fnXY/apple-three.png"
+                        alt="apple-image"
+                    />
+                    </div>
+                    <div class="image-four fruit-image">
+                    <img
+                        src="https://i.postimg.cc/CLnDcC7F/apple-four.png"
+                        alt="apple-image"
+                    />
+                    </div>
+                </div>
+                </section>
+                <section class="section" id="section3">
+                <div class="fruit-images">
+                    <div class="image-one fruit-image">
+                    <img
+                        src="https://i.postimg.cc/Dy5mhBgQ/exotic-one.png"
+                        alt="exotic-image"
+                    />
+                    </div>
+                    <div class="image-two fruit-image">
+                    <img
+                        src="https://i.postimg.cc/RVmGyVs6/exotic-two.png"
+                        alt="exotic-image"
+                    />
+                    </div>
+                    <div class="image-three fruit-image">
+                    <img
+                        src="https://i.postimg.cc/yNDTcJd5/exotic-three.png"
+                        alt="exotic-image"
+                    />
+                    </div>
+                    <div class="image-four fruit-image">
+                    <img
+                        src="https://i.postimg.cc/yNDTcJd5/exotic-three.png"
+                        alt="exotic-image"
+                    />
+                    </div>
+                </div>
+                </section>
+            </div>
+            </div>
+        
+        </main>
+
         <!-- Hero Start -->
-        <div class="container-fluid py-5 mb-5 hero-header">
+        <!-- <div class="container-fluid py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row g-5 align-items-center">
                     <div class="col-md-12 col-lg-7">
@@ -41,9 +189,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Hero End -->
-
 
         <!-- Featurs Section Start -->
         <div class="container-fluid featurs py-5">
@@ -97,7 +244,6 @@
             </div>
         </div>
         <!-- Featurs Section End -->
-
 
         <!-- Fruits Shop Start-->
         <div class="container-fluid fruite py-5">
@@ -456,7 +602,6 @@
         </div>
         <!-- Fruits Shop End-->
 
-
         <!-- Featurs Start -->
         <div class="container-fluid service py-5">
             <div class="container py-5">
@@ -504,7 +649,6 @@
             </div>
         </div>
         <!-- Featurs End -->
-
 
         <!-- Vesitable Shop Start-->
         <div class="container-fluid vesitable py-5">
@@ -628,7 +772,6 @@
         </div>
         <!-- Vesitable Shop End -->
 
-
         <!-- Banner Section Start-->
         <div class="container-fluid banner bg-secondary my-5">
             <div class="container py-5">
@@ -657,7 +800,6 @@
             </div>
         </div>
         <!-- Banner Section End -->
-
 
         <!-- Bestsaler Product Start -->
         <div class="container-fluid py-5">
@@ -866,7 +1008,6 @@
         </div>
         <!-- Bestsaler Product End -->
 
-
         <!-- Fact Start -->
         <div class="container-fluid py-5">
             <div class="container">
@@ -905,7 +1046,6 @@
             </div>
         </div>
         <!-- Fact Start -->
-
 
         <!-- Tastimonial Start -->
         <div class="container-fluid testimonial py-5">
@@ -997,6 +1137,8 @@
 
         <?php include 'include/footer.php' ?>
 
+        <script src="/js/gsap.min.js"></script>
+        <script src="/js/slider.js"></script>
     </body>
 
 </html>
