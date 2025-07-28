@@ -3,6 +3,7 @@
       /* Common Style */
       main.home-slider {
         position: relative;
+        margin-top: 10px;
       }
       main.home-slider img {
         width: 100%;

@@ -3,12 +3,13 @@
         <div class="container-fluid bg-dark text-white-50 footer pt-5 mt-5">
             <div class="container py-5">
                 <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
-                    <div class="row g-4">
+                    <div class="row align-items-center">
                         <div class="col-lg-3">
-                            <a href="#">
-                                <h1 class="text-primary mb-0">OMAYA CLASS</h1>
-                                <p class="text-secondary mb-0">Fresh products</p>
-                            </a>
+                            <div class="logo">
+                                <a href="/">
+                                    <img width="166" height="105" src="img/primary/logo.png" alt="omaya class">
+                                </a>
+                            </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="position-relative mx-auto">
@@ -60,7 +61,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-item">
                             <h4 class="text-light mb-3">Contact</h4>
-                            <p>Address: 1429 Netus Rd, NY 48247</p>
+                            <p>Address: 1429 Street, Dubai</p>
                             <p>Email: Info@Omayaaclass.com</p>
                             <p>Phone: +11 7008</p>
                             <p>Payment Accepted</p>
@@ -83,7 +84,7 @@
                         <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a class="border-bottom" href="https://yelladev.com.com">YellaDev</a>
+                        Powered By : <a class="border-bottom" href="https://yelladev.com.com">YellaDev</a>
                     </div>
                 </div>
             </div>
