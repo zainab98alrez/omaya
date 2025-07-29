@@ -58,64 +58,64 @@
         <!-- Fixed Sections Ends-->
         <!-- Fruits Images Section -->
         <div class="section-container-main">
-        <div class="section-container">
-            <section class="section" id="section1">
-                <div class="fruit-images">
-                    <div class="image-one fruit-image">
-                    <img
-                        src="/img/home/ice-cream-1.webp"
-                        alt="pear-image"
-                    />
+            <div class="section-container">
+                <section class="section" id="section1">
+                    <div class="fruit-images">
+                        <div class="image-one fruit-image">
+                        <img
+                            src="/img/home/ice-cream-1.webp"
+                            alt="pear-image"
+                        />
+                        </div>
+                        <div class="image-two fruit-image">
+                        <img
+                            src="/img/home/ice-cream-3.webp"
+                            alt="pear-image"
+                        />
+                        </div>
+                        <div class="image-three fruit-image">
+                        <img
+                            src="/img/home/ice-cream-4.webp"
+                            alt="pear-image"
+                        />
+                        </div>
+                        <div class="image-four fruit-image">
+                        <img
+                            src="/img/home/ice-cream-2.webp"
+                            alt="pear-image"
+                        />
+                        </div>
                     </div>
-                    <div class="image-two fruit-image">
-                    <img
-                        src="/img/home/ice-cream-3.webp"
-                        alt="pear-image"
-                    />
+                </section>
+                <section class="section" id="section2">
+                    <div class="fruit-images">
+                        <div class="image-one fruit-image">
+                        <img
+                            src="/img/home/biscuit-1.png"
+                            alt="apple-image"
+                        />
+                        </div>
+                        <div class="image-two fruit-image">
+                        <img
+                            src="/img/home/biscuit-2.png"
+                            alt="apple-image"
+                        />
+                        </div>
+                        <div class="image-three fruit-image">
+                        <img
+                            src="/img/home/biscuit-3.png"
+                            alt="apple-image"
+                        />
+                        </div>
+                        <div class="image-four fruit-image">
+                        <img
+                            src="/img/home/biscuit-4.png"
+                            alt="apple-image"
+                        />
+                        </div>
                     </div>
-                    <div class="image-three fruit-image">
-                    <img
-                        src="/img/home/ice-cream-4.webp"
-                        alt="pear-image"
-                    />
-                    </div>
-                    <div class="image-four fruit-image">
-                    <img
-                        src="/img/home/ice-cream-2.webp"
-                        alt="pear-image"
-                    />
-                    </div>
-                </div>
-            </section>
-            <section class="section" id="section2">
-                <div class="fruit-images">
-                    <div class="image-one fruit-image">
-                    <img
-                        src="https://i.postimg.cc/dQHKtr8c/apple-one.png"
-                        alt="apple-image"
-                    />
-                    </div>
-                    <div class="image-two fruit-image">
-                    <img
-                        src="https://i.postimg.cc/52PP8S2f/apple-two.png"
-                        alt="apple-image"
-                    />
-                    </div>
-                    <div class="image-three fruit-image">
-                    <img
-                        src="https://i.postimg.cc/Zqx5fnXY/apple-three.png"
-                        alt="apple-image"
-                    />
-                    </div>
-                    <div class="image-four fruit-image">
-                    <img
-                        src="https://i.postimg.cc/CLnDcC7F/apple-four.png"
-                        alt="apple-image"
-                    />
-                    </div>
-                </div>
-            </section>
-        </div>
+                </section>
+            </div>
         </div>
     
     </main>
