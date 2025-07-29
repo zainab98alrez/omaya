@@ -1,11 +1,6 @@
     <?php include 'include/head.php' ?>
     
-     <link
-      fetchpriority="high"
-      rel="preload"
-      href="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg"
-      as="image"
-    />
+
 
     <link rel="stylesheet" href="/css/slider.css">
 </head>
@@ -13,82 +8,86 @@
     <?php include 'include/loader.php' ?>
     <?php include 'include/menu.php' ?>
 
-        <main class="home-slider">
-            <!-- Buttons -->
-            <div>
-            <button id="prevButton" class="wave">
-                <svg
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path
-                    d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z"
-                    fill-rule="nonzero"
-                />
-                </svg>
-            </button>
+    <main class="home-slider">
+        <!-- Buttons -->
+        <div>
+        <button id="prevButton" class="wave">
+            <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                d="m12.017 1.995c5.517 0 9.997 4.48 9.997 9.998s-4.48 9.998-9.997 9.998c-5.518 0-9.998-4.48-9.998-9.998s4.48-9.998 9.998-9.998zm0 1.5c-4.69 0-8.498 3.808-8.498 8.498s3.808 8.498 8.498 8.498 8.497-3.808 8.497-8.498-3.807-8.498-8.497-8.498zm-1.528 4.715s-1.502 1.505-3.255 3.259c-.147.147-.22.339-.22.531s.073.383.22.53c1.753 1.754 3.254 3.258 3.254 3.258.145.145.335.217.526.217.192-.001.384-.074.531-.221.292-.293.294-.766.003-1.057l-1.977-1.977h6.693c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-6.693l1.978-1.979c.29-.289.287-.762-.006-1.054-.147-.147-.339-.221-.53-.222-.19 0-.38.071-.524.215z"
+                fill-rule="nonzero"
+            />
+            </svg>
+        </button>
 
-            <button id="nextButton" class="wave">
-                <svg
-                clip-rule="evenodd"
-                fill-rule="evenodd"
-                stroke-linejoin="round"
-                stroke-miterlimit="2"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-                >
-                <path
-                    d="m12.012 1.995c-5.518 0-9.998 4.48-9.998 9.998s4.48 9.998 9.998 9.998 9.997-4.48 9.997-9.998-4.479-9.998-9.997-9.998zm0 1.5c4.69 0 8.497 3.808 8.497 8.498s-3.807 8.498-8.497 8.498-8.498-3.808-8.498-8.498 3.808-8.498 8.498-8.498zm1.528 4.715s1.502 1.505 3.255 3.259c.146.147.219.339.219.531s-.073.383-.219.53c-1.753 1.754-3.254 3.258-3.254 3.258-.145.145-.336.217-.527.217-.191-.001-.383-.074-.53-.221-.293-.293-.295-.766-.004-1.057l1.978-1.977h-6.694c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h6.694l-1.979-1.979c-.289-.289-.286-.762.006-1.054.147-.147.339-.221.531-.222.19 0 .38.071.524.215z"
-                    fill-rule="nonzero"
+        <button id="nextButton" class="wave">
+            <svg
+            clip-rule="evenodd"
+            fill-rule="evenodd"
+            stroke-linejoin="round"
+            stroke-miterlimit="2"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+            <path
+                d="m12.012 1.995c-5.518 0-9.998 4.48-9.998 9.998s4.48 9.998 9.998 9.998 9.997-4.48 9.997-9.998-4.479-9.998-9.997-9.998zm0 1.5c4.69 0 8.497 3.808 8.497 8.498s-3.807 8.498-8.497 8.498-8.498-3.808-8.498-8.498 3.808-8.498 8.498-8.498zm1.528 4.715s1.502 1.505 3.255 3.259c.146.147.219.339.219.531s-.073.383-.219.53c-1.753 1.754-3.254 3.258-3.254 3.258-.145.145-.336.217-.527.217-.191-.001-.383-.074-.53-.221-.293-.293-.295-.766-.004-1.057l1.978-1.977h-6.694c-.414 0-.75-.336-.75-.75s.336-.75.75-.75h6.694l-1.979-1.979c-.289-.289-.286-.762.006-1.054.147-.147.339-.221.531-.222.19 0 .38.071.524.215z"
+                fill-rule="nonzero"
+            />
+            </svg>
+        </button>
+        </div>
+        <!-- Fixed Sections -->
+        <div class="text">
+            <h1 class="h1 color-me">Ice Cream</h1>
+            <!-- <div class="cane-image">
+                <img src="https://www.yudiz.com/codepen/fruity/cane.svg" alt="" />
+                <img
+                src="/img/products/new.png"
+                alt=""
+                class="cane-labels"
                 />
-                </svg>
-            </button>
-            </div>
-            <!-- Fixed Sections -->
-            <div class="text">
-            <h1 class="h1 color-me">Pineapple</h1>
-            <div class="cane-image">
-                <img src="/img/home/ice_cream.png" alt="" />
-                <!-- <img src="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg" alt="" class="cane-labels"/> -->
-            </div>
-            </div>
-            <!-- Fixed Sections Ends-->
-            <!-- Fruits Images Section -->
-            <div class="section-container-main">
-            <div class="section-container">
-                <section class="section" id="section1">
+            </div> -->
+        </div>
+        <!-- Fixed Sections Ends-->
+        <!-- Fruits Images Section -->
+        <div class="section-container-main">
+        <div class="section-container">
+            <section class="section" id="section1">
                 <div class="fruit-images">
                     <div class="image-one fruit-image">
                     <img
-                        src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
+                        src="/img/home/ice-cream-1.webp"
                         alt="pear-image"
                     />
                     </div>
                     <div class="image-two fruit-image">
                     <img
-                        src="https://i.postimg.cc/0NTLXFgJ/juice-pineapple-upside-down-cake-pi-a-colada-tropical-fruit-png-favpng-Vp-Mxpajyhdza-LK6-XJGLBc-BTVq-rem.png"
+                        src="/img/home/ice-cream-3.webp"
                         alt="pear-image"
                     />
                     </div>
                     <div class="image-three fruit-image">
                     <img
-                        src="https://i.postimg.cc/nzHvxKDc/juice-pi-a-colada-pineapple-tropical-fruit-png-favpng-ecr36-Fu811-De3-PPd1-Vanm-HRbg-t-removebg-preview.png"
+                        src="/img/home/ice-cream-4.webp"
                         alt="pear-image"
                     />
                     </div>
                     <div class="image-four fruit-image">
                     <img
-                        src="https://i.postimg.cc/FFL61Ndt/pineapple-juice-slice-fruit-png-favpng-Xnnskf-ED5x3vkn-Xs-E2f-Y5-Ac-Jw-removebg-preview.png"
+                        src="/img/home/ice-cream-2.webp"
                         alt="pear-image"
                     />
                     </div>
                 </div>
-                </section>
-                <section class="section" id="section2">
+            </section>
+            <section class="section" id="section2">
                 <div class="fruit-images">
                     <div class="image-one fruit-image">
                     <img
@@ -115,39 +114,11 @@
                     />
                     </div>
                 </div>
-                </section>
-                <section class="section" id="section3">
-                <div class="fruit-images">
-                    <div class="image-one fruit-image">
-                    <img
-                        src="https://i.postimg.cc/Dy5mhBgQ/exotic-one.png"
-                        alt="exotic-image"
-                    />
-                    </div>
-                    <div class="image-two fruit-image">
-                    <img
-                        src="https://i.postimg.cc/RVmGyVs6/exotic-two.png"
-                        alt="exotic-image"
-                    />
-                    </div>
-                    <div class="image-three fruit-image">
-                    <img
-                        src="https://i.postimg.cc/yNDTcJd5/exotic-three.png"
-                        alt="exotic-image"
-                    />
-                    </div>
-                    <div class="image-four fruit-image">
-                    <img
-                        src="https://i.postimg.cc/yNDTcJd5/exotic-three.png"
-                        alt="exotic-image"
-                    />
-                    </div>
-                </div>
-                </section>
-            </div>
-            </div>
-        
-        </main>
+            </section>
+        </div>
+        </div>
+    
+    </main>
 
 
       <section class="py-5 bg-primary-gradient">
@@ -247,7 +218,7 @@
                 <div class="tab-class text-center">
                     <div class="row g-4">
                         <div class="col-lg-4 text-start">
-                            <h1>Our Organic Products</h1>
+                            <h1>Our Products</h1>
                         </div>
                         <div class="col-lg-8 text-end">
                             <ul class="nav nav-pills d-inline-flex text-center mb-5">
@@ -276,128 +247,158 @@
                                     <div class="row g-4">
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-1.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Ice Cream</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Mulberry bush</h4>
+                                                    <a href="/product"><h4>Mulberry bush</h4></a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-2.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Ice Cream</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Veruna</h4>
+                                                    <a href="/product">
+                                                        <h4>Veruna</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-3.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Ice Cream</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Maxi cake</h4>
+                                                    <a href="/product">
+                                                        <h4>Maxi cake</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-4.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-4.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Ice Cream</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Baloza</h4>
+                                                    <a href="/product">
+                                                        <h4>Baloza</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-5.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Biscuit</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Good Day (Coffee)</h4>
+                                                    <a href="/product">
+                                                        <h4>Good Day (Coffee)</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-6.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Biscuit</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Good Day (Coconuts)</h4>
+                                                    <a href="/product">
+                                                        <h4>Good Day (Coconuts)</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-7.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-7.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Biscuit</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Good Day (Anise)</h4>
+                                                    <a href="/product">
+                                                        <h4>Good Day (Anise)</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-md-6 col-lg-4 col-xl-3">
                                             <div class="rounded position-relative fruite-item">
-                                                <div class="fruite-img">
-                                                    <img src="img/products/product-8.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                                </div>
+                                                <a href="/product">
+                                                    <div class="fruite-img">
+                                                        <img src="img/products/product-8.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                    </div>
+                                                </a>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Biscuit</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Good Day (Vanella)</h4>
+                                                    <a href="/product">
+                                                        <h4>Good Day (Vanella)</h4>
+                                                    </a>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
-                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                                        <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -529,7 +530,7 @@
                                                 </div>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Grapes</h4>
+                                                    <h4>Ice Cream</h4>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -545,7 +546,7 @@
                                                 </div>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Apricots</h4>
+                                                    <h4>Ice Cream</h4>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -569,7 +570,7 @@
                                                 </div>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Banana</h4>
+                                                    <h4>Ice Cream</h4>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -585,7 +586,7 @@
                                                 </div>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Raspberries</h4>
+                                                    <h4>Ice Cream</h4>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -601,7 +602,7 @@
                                                 </div>
                                                 <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                                 <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                    <h4>Oranges</h4>
+                                                    <h4>Ice Cream</h4>
                                                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                     <div class="d-flex justify-content-between flex-lg-wrap">
                                                         <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -707,7 +708,7 @@
                         </div>
                         <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
                         <div class="p-4 rounded-bottom">
-                            <h4>Banana</h4>
+                            <h4>Ice Cream</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                             <div class="d-flex justify-content-between flex-lg-wrap">
                                 <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
@@ -735,7 +736,7 @@
                         </div>
                         <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
                         <div class="p-4 rounded-bottom">
-                            <h4>Potatoes</h4>
+                            <h4>Ice Cream</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                             <div class="d-flex justify-content-between flex-lg-wrap">
                                 <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
@@ -763,7 +764,7 @@
                         </div>
                         <div class="text-white bg-primary px-3 py-1 rounded position-absolute" style="top: 10px; right: 10px;">Vegetable</div>
                         <div class="p-4 rounded-bottom">
-                            <h4>Potatoes</h4>
+                            <h4>Ice Cream</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                             <div class="d-flex justify-content-between flex-lg-wrap">
                                 <p class="text-dark fs-5 fw-bold mb-0">$7.99 / kg</p>
@@ -792,27 +793,18 @@
 
         <!-- Banner Section Start-->
         <div class="container-fluid banner bg-omaya my-5">
-            <div class="container py-5">
+            <div class="container py-5 position-relative z-9">
                 <div class="row g-4 align-items-center">
                     <div class="col-lg-6">
                         <div class="py-4">
-                            <h1 class="display-3 text-white">Fresh Exotic Fruits</h1>
+                            <h1 class="display-3 text-white">Ice Cream</h1>
                             <p class="fw-normal display-3 text-dark mb-4">in Our Store</p>
                             <p class="mb-4 text-dark">We at Umayya Class pride ourselves on bringing our customers the essence of our experience in making ice cream, Russian ice cream, and all types of ice cream.</p>
                             <a href="#" class="banner-btn btn border-2 border-white rounded-pill text-dark py-3 px-5">BUY</a>
                         </div>
                     </div>
                     <div class="col-lg-6">
-                        <div class="position-relative">
-                            <img src="img/baner-1.png" class="img-fluid w-100 rounded" alt="">
-                            <div class="d-flex align-items-center justify-content-center bg-white rounded-circle position-absolute" style="width: 140px; height: 140px; top: 0; left: 0;">
-                                <h1 style="font-size: 100px;">1</h1>
-                                <div class="d-flex flex-column">
-                                    <span class="h2 mb-0">50$</span>
-                                    <span class="h4 text-muted mb-0">kg</span>
-                                </div>
-                            </div>
-                        </div>
+                      
                     </div>
                 </div>
             </div>
@@ -834,7 +826,7 @@
                                     <img src="img/products/product-11.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Shami berries</a>
+                                    <a href="/product" class="h5">Shami berries</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -843,7 +835,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -855,7 +847,7 @@
                                     <img src="img//products/product-9.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Mn & Salwa</a>
+                                    <a href="/product" class="h5">Mn & Salwa</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -864,7 +856,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -876,7 +868,7 @@
                                     <img src="img/products/product-10.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Pastage</a>
+                                    <a href="/product" class="h5">Pastage</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -885,7 +877,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -897,7 +889,7 @@
                                     <img src="img/products/product-12.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Goxie</a>
+                                    <a href="/product" class="h5">Goxie</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -906,7 +898,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -918,7 +910,7 @@
                                     <img src="img/products/product-13.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Coaster</a>
+                                    <a href="/product" class="h5">Coaster</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -927,7 +919,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -939,7 +931,7 @@
                                     <img src="img/products/product-14.jpg" class="img-fluid rounded-circle w-100" alt="">
                                 </div>
                                 <div class="col-6">
-                                    <a href="#" class="h5">Arnous Freeze</a>
+                                    <a href="/product" class="h5">Arnous Freeze</a>
                                     <div class="d-flex my-3">
                                         <i class="fas fa-star text-primary"></i>
                                         <i class="fas fa-star text-primary"></i>
@@ -948,7 +940,7 @@
                                         <i class="fas fa-star"></i>
                                     </div>
                                     <h4 class="mb-3">3.12 $</h4>
-                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                    <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -957,7 +949,7 @@
                         <div class="text-center">
                             <img src="img/products/product-15.jpg" class="img-fluid rounded" alt="">
                             <div class="py-4">
-                                <a href="#" class="h5">Oreno Milk</a>
+                                <a href="/product" class="h5">Oreno Milk</a>
                                 <div class="d-flex my-3 justify-content-center">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -966,7 +958,7 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
                         </div>
                     </div>
@@ -974,7 +966,7 @@
                         <div class="text-center">
                             <img src="img/products/product-16.jpg" class="img-fluid rounded" alt="">
                             <div class="py-4">
-                                <a href="#" class="h5">Coaster</a>
+                                <a href="/product" class="h5">Coaster</a>
                                 <div class="d-flex my-3 justify-content-center">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -983,7 +975,7 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
                         </div>
                     </div>
@@ -991,7 +983,7 @@
                         <div class="text-center">
                             <img src="img/products/product-17.jpg" class="img-fluid rounded" alt="">
                             <div class="py-4">
-                                <a href="#" class="h5">Ice Cream Oreno</a>
+                                <a href="/product" class="h5">Ice Cream Oreno</a>
                                 <div class="d-flex my-3 justify-content-center">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1000,7 +992,7 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
                         </div>
                     </div>
@@ -1008,7 +1000,7 @@
                         <div class="text-center">
                             <img src="img/products/product-4.jpg" class="img-fluid rounded" alt="">
                             <div class="py-2">
-                                <a href="#" class="h5">Ice Cream Lemon</a>
+                                <a href="/product" class="h5">Ice Cream Lemon</a>
                                 <div class="d-flex my-3 justify-content-center">
                                     <i class="fas fa-star text-primary"></i>
                                     <i class="fas fa-star text-primary"></i>
@@ -1017,7 +1009,7 @@
                                     <i class="fas fa-star"></i>
                                 </div>
                                 <h4 class="mb-3">3.12 $</h4>
-                                <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
+                                <a href="/cart" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-primary"></i> Add to cart</a>
                             </div>
                         </div>
                     </div>

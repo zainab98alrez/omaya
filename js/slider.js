@@ -1,7 +1,7 @@
   //import gsap from "https://esm.sh/gsap";
     //............................................................... Script ...................................................................
     // Data for the sections
-    let h1Texts = ["Pineapple", "Apple Flavour", "Apple passion"]; // Add your h1 texts here
+    let h1Texts = ["Ice Cream", "Biscuit",]; // Add your h1 texts here
 
     let logoColors = [
       "var(--pear-logo)",
@@ -30,7 +30,7 @@
     const sections = document.querySelectorAll(".section");
     const prevButton = document.getElementById("prevButton");
     const nextButton = document.getElementById("nextButton");
-    const caneLabels = document.querySelector(".cane-labels");
+    // const caneLabels = document.querySelector(".cane-labels");
     const sectionContainer = document.querySelector(".section-container");
     // Set index and current position
     let index = 0;
@@ -43,7 +43,7 @@
       if (currentPosition > -200) {
         currentPosition -= 100;
         // Update the left position of the cane-labels
-        caneLabels.style.left = `${currentPosition}%`;
+        // caneLabels.style.left = `${currentPosition}%`;
         sectionContainer.style.left = `${currentPosition}%`;
       }
       // Increment index and currentIndex
@@ -80,7 +80,7 @@
       if (currentPosition < 0) {
         currentPosition += 100;
         // Update the left position of the cane-labels
-        caneLabels.style.left = `${currentPosition}%`;
+        // caneLabels.style.left = `${currentPosition}%`;
         sectionContainer.style.left = `${currentPosition}%`;
         sectionContainer.style.transition = `all 0.5s ease-in-out`;
       }

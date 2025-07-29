@@ -296,10 +296,21 @@
 
 .bg-omaya{
     background-image: url(/img/home/bg2.jpg);
-    filter: brightness(50%);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    position: relative;
+}
+
+.bg-omaya::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #46464680;
+    top: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .bg-omaya-2{
@@ -552,19 +563,6 @@ a:hover {
     color: #a38c26;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.z-9 {
+    z-index: 9;
+}

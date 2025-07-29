@@ -73,14 +73,9 @@
         </div>
         <!-- Contact End -->
 
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+ 
 
         <?php include 'include/footer.php' ?>
-
-        <script src="/js/gsap.min.js"></script>
-        <script src="/js/slider.js"></script>
 </body>
 
 </html>

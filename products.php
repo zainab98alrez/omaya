@@ -61,7 +61,7 @@
                                                 </li>
                                                 <li>
                                                     <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="#"><i class="fas fa-apple-alt me-2"></i>Oranges</a>
+                                                        <a href="#"><i class="fas fa-apple-alt me-2"></i>Ice Cream</a>
                                                         <span>(5)</span>
                                                     </div>
                                                 </li>
@@ -125,7 +125,7 @@
                                                 <img src="img/products/product-1.jpg" class="img-fluid rounded" alt="">
                                             </div>
                                             <div>
-                                                <h6 class="mb-2">Big Banana</h6>
+                                                <h6 class="mb-2">Ice Cream</h6>
                                                 <div class="d-flex mb-2">
                                                     <i class="fa fa-star text-secondary"></i>
                                                     <i class="fa fa-star text-secondary"></i>
@@ -144,7 +144,7 @@
                                                 <img src="img/products/product-2.jpg" class="img-fluid rounded" alt="">
                                             </div>
                                             <div>
-                                                <h6 class="mb-2">Big Banana</h6>
+                                                <h6 class="mb-2">Ice Cream</h6>
                                                 <div class="d-flex mb-2">
                                                     <i class="fa fa-star text-secondary"></i>
                                                     <i class="fa fa-star text-secondary"></i>
@@ -163,7 +163,7 @@
                                                 <img src="img/products/product-3.jpg" class="img-fluid rounded" alt="">
                                             </div>
                                             <div>
-                                                <h6 class="mb-2">Big Banana</h6>
+                                                <h6 class="mb-2">Ice Cream</h6>
                                                 <div class="d-flex mb-2">
                                                     <i class="fa fa-star text-secondary"></i>
                                                     <i class="fa fa-star text-secondary"></i>
@@ -195,12 +195,14 @@
                                 <div class="row g-4 justify-content-center">
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-5.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-5.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -211,12 +213,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-6.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-6.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -227,12 +231,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-7.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-7.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Raspberries</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -243,12 +249,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-8.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-8.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Apricots</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -259,12 +267,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-9.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-9.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Banana</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -275,12 +285,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-10.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-10.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Oranges</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -291,12 +303,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-11.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-11.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Raspberries</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -307,12 +321,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-12.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-12.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -323,12 +339,14 @@
                                     </div>
                                     <div class="col-md-6 col-lg-6 col-xl-4">
                                         <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/products/product-13.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
+                                            <a href="/product">
+                                                <div class="fruite-img">
+                                                    <img src="img/products/product-13.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                </div>
+                                            </a>
                                             <div class="text-white bg-secondary px-3 py-1 rounded position-absolute" style="top: 10px; left: 10px;">Fruits</div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Oranges</h4>
+                                                <a href="/product"><h4>Ice Cream</h4></a>
                                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod te incididunt</p>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
                                                     <p class="text-dark fs-5 fw-bold mb-0">$4.99 / kg</p>
@@ -359,14 +377,8 @@
         <!-- Fruits Shop End-->
 
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary border-3 border-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
-
         
         <?php include 'include/footer.php' ?>
-
-        <script src="/js/gsap.min.js"></script>
-        <script src="/js/slider.js"></script>
     </body>
 
 </html>

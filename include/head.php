@@ -27,5 +27,3 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
-
-        <link fetchpriority="high" rel="preload" href="https://i.postimg.cc/tgCcWKct/DEAR-BREW-juice.jpg" as="image" />
