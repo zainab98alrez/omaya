@@ -20,8 +20,8 @@
         <!-- Cart Page Start -->
         <div class="container-fluid py-5">
             <div class="container py-5">
-                <div class="row g-4 justify-content-end">
-                    <div class="col-8">
+                <div class="row">
+                    <div class="col-lg-8 mb-4 mb-lg-0">
                         <div class="table-responsive">
                             <table class="table">
                                 <thead>
@@ -148,7 +148,7 @@
                             </table>
                         </div>
                     </div>
-                    <div class="col-sm-8 col-md-7 col-lg-6 col-xl-4">
+                    <div class="col-lg-4">
                         <div class="bg-light rounded">
                             <div class="p-4">
                                 <h1 class="display-6 mb-4">Cart <span class="fw-normal">Total</span></h1>

@@ -18,7 +18,7 @@
                 <nav class="navbar navbar-light bg-white navbar-expand-xl">
                     <div class="logo">
                         <a href="/">
-                            <img width="166" height="105" src="img/primary/logo.png" alt="omaya class">
+                            <img class="img-fluid" loading="lazy" width="109" height="81" src="img/primary/logo.png" alt="omaya class">
                         </a>
                     </div>
                     <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
