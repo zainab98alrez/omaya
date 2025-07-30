@@ -4,8 +4,8 @@
             <div class="container py-5">
                 <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
                     <div class="row align-items-center">
-                        <div class="col-lg-3">
-                            <div class="logo">
+                        <div class="col-lg-3 mb-4 mb-lg-0">
+                            <div class="logo text-center text-lg-start">
                                 <a href="/">
                                     <img width="166" height="105" src="img/primary/logo.png" alt="omaya class">
                                 </a>
@@ -13,7 +13,7 @@
                         </div>
                         <div class="col-lg-6"></div>
                         <div class="col-lg-3">
-                            <div class="d-flex justify-content-end pt-3">
+                            <div class="d-flex justify-content-lg-end justify-content-center pt-3">
                                 <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
                                 <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
                                 <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
